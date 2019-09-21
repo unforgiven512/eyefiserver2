@@ -1,3 +1,17 @@
+#
+# .gitignore
+#
+
+## GENERIC ##
+*~
+*.bak
+
+
+## PYTHON ##
+*.pyc
+*.pyo
+
+
 /tmp
 /usr/local/bin/eyefiserver.py.orig
 /qpkg/build
