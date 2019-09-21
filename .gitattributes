@@ -1,0 +1,47 @@
+#
+# .gitattributes
+#
+
+## General (Catch-All) ##
+*						text=auto
+
+
+## Scripts ##
+*.py					eol=lf diff=python
+*.sh					eol=lf
+*.cgi					eol=lf
+*.js					eol=lf
+etc/init.d/eyefiserver	eol=lf
+
+
+## Support Files ##
+Makefile				eol=lf
+*.mk					eol=lf
+*.make					eol=lf
+*.makefile				eol=lf
+
+
+## Text/Markup Files ##
+LICENSE					eol=lf
+*.txt					eol=crlf
+*.md					eol=crlf
+*.mkdn					eol=crlf
+*.markdown				eol=crlf
+*.rst					eol=lf
+*.adoc					eol=lf
+*.asciidoc				eol=lf
+*.htm					eol=lf diff=html
+*.html					eol=lf diff=html
+*.css					eol=lf
+*.json					eol=lf
+
+
+## Config Files ##
+*.conf					eol=lf
+*.cfg					eol=lf
+.htaccess				eol=lf
+
+
+
+
+
