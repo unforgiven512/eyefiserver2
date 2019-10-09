@@ -12,6 +12,12 @@
 *.pyo
 
 
+## PROJECT ##
+eyefiserver.conf
+etc/eyefiserver.conf
+
+
+## TMP ##
 /tmp
 /usr/local/bin/eyefiserver.py.orig
 /qpkg/build
